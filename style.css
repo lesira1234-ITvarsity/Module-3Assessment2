@@ -1,0 +1,377 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/background\ image-1unsplash.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-starter{
+    background-image: url('images/background\ image\ 5.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.body-meals{
+    background-image: url('images/background\ image\ 3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.body-desserts{
+    background-image: url('images/background\ image\ 4.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.body-drinks{
+    background-image: url('images/background\ image\ 5.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+
+/*==========HEADER==========*/
+.header{
+    background-color:  plum;
+    width: 100%;
+    height: 50px;
+    top: 0;
+
+    position:  fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: #ffffff;
+}
+
+.header img{
+    width: 200px;
+}
+
+.home-starters-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:White;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== HOME PAGE===========*/
+#home-logo-img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+
+#home-logo-text{
+    width:  auto;
+    display: block;
+    margin: auto;
+    padding: 25px;
+    width: 190px;
+}
+
+/*========== HOME PAGE MENU===========*/
+
+/*========== STARTERS===========*/
+#starters{
+    padding-top: 50px;
+}
+
+/*========== STARTERS MENU===========*/
+.starters-list a{
+    text-decoration: none;
+}
+
+.starters-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.starters-list-item i{
+    float: right;
+    color:#1a1a1a;
+    padding-right: 10px;
+}
+
+.starters-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== MEALS===========*/
+#meals{
+    padding-top: 50px;
+}
+
+/*========== STARTERS MENU===========*/
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color:#1a1a1a;
+    padding-right: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== DESSERTS===========*/
+#desserts{
+    padding-top: 50px;
+}
+
+/*========== DESSERTS MENU===========*/
+.desserts-list a{
+    text-decoration: none;
+}
+
+.desserts-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.desserts-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.desserts-list-item i{
+    float: right;
+    color:#1a1a1a;
+    padding-right: 10px;
+}
+
+.desserts-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*==========DRINKS===========*/
+#drinks{
+    padding-top: 50px;
+}
+
+/*========== DRINKS MENU===========*/
+.drinks-list a{
+   text-decoration: none;
+}
+
+.drinks-list-item{
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.drinks-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #1a1a1a;
+    padding-left: 10px;
+}
+
+.drinks-list-item i{
+    float: right;
+    color:#1a1a1a;
+    padding-right: 10px;
+}
+
+.drinks-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #4d4d4d;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+ /*==========STARTERS PAGE===========*/
+ #starters{
+     padding-top: 50px;
+ }
+
+  /*==========STARTERS DETAILS===========*/
+  .starter-details img{
+      width: 100%;
+  }
+
+  .starter-details h1{
+      font-size: 25px;
+      text-align: center;
+      border: 5px solid #1a1a1a;
+      margin: 10px;
+      padding: 5px;
+
+  }
+
+  .starter-details label{
+      line-height: 25px;
+      margin-left: 10px;
+  }
+
+  input{
+      width: 100%;
+      height: 25px;
+      margin: 12px 0;
+      border: 1px solid #929292;
+  }
+
+  textarea{
+      width: 100%;
+      height: 65px;
+      margin: 12px 0;
+      border: 1px solid #929292;
+  }
+
+  .button{
+      display: block;
+      width: 100%;
+      background-color: plum;
+      text-decoration: none;
+      text-align: center;
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+      margin: 12px 0;
+      padding: 8px 0;
+  }
+
+  /*==========RESPONSIVE LAYOUTS============*/
+  @media only screen and (main-width:600px){
+      #starter{
+          width: 80%;
+          margin: auto;
+  }
+
+#meals{
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (main-width:600px){
+    #desserts{
+        width: 80%;
+        Margin: auto;
+    }
+
+    #drinks{
+        width: 80%;
+        margin:  auto;
+    }
+
+    @media only screen and (main-width:1000px){
+        #starter{
+            width: 60%;
+            margin: auto;
+    }
+  
+  #meals{
+      width: 60%;
+      margin: auto;
+  }
+  
+  @media only screen and (main-width:1000px){
+      #desserts{
+          width: 60%;
+          Margin: auto;
+      }
+  
+      #drinks{
+          width: 60%;
+          margin:  auto;
+      }
+
+      @media only screen and (main-width:1500px){
+        #starter{
+            width: 40%;
+            margin: auto;
+    }
+  
+  #meals{
+      width: 40%;
+      margin: auto;
+  }
+  
+  @media only screen and (main-width:1500px){
+      #desserts{
+          width: 40%;
+          Margin: auto;
+      }
+  
+      #drinks{
+          width: 40%;
+          margin:  auto;
+      }
+
+      @media only screen and (main-width: 720px){
+          .body-home{
+              background-image: url('images/background\ image-1unsplash.jpg');
+          }
+      }
+
+      .body-meals{
+          background-image: url('images/background\ image\ 3.jpg');
+      }
